@@ -102,7 +102,7 @@ class ContactUsUi extends PolymerElement {
       this.$.spinner.active = true;
       this.$.spinner.classList.add('active');
 
-      var url = 'https://3oemw4weak.execute-api.us-east-1.amazonaws.com/api/contact-us-api';
+      var url = 'https://xupmhdl2g5.execute-api.us-east-1.amazonaws.com/api/contact-us-api';
       var data = {contact: this.$.contact.value, email: this.$.contactEmail.value};
       let err = false;
 
